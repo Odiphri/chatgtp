@@ -5,7 +5,7 @@ const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
 let userText = null;
-const API_KEY = "Octokit.js SDK"; // Paste your API key here
+const API_KEY = "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"; // Paste your API key here
 
 const loadDataFromLocalstorage = () => {
     // Load saved chats and theme from local storage and apply/add on the page
@@ -15,7 +15,7 @@ const loadDataFromLocalstorage = () => {
     themeButton.innerText = document.body.classList.contains("light-mode") ? "dark_mode" : "light_mode";
 
     const defaultText = `<div class="default-text">
-                            <h1>ChatGPT Clone</h1>
+                            <h1>ChatGPT</h1>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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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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
                             <p>Start a conversation and explore the power of AI.<br> Your chat history will be displayed here.</p>
                         </div>`
 
